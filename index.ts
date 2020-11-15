@@ -68,6 +68,8 @@ class _Range {
   }
 }
 
-function range(end: number) {
+export function range(end: number) {
   return new _Range(end);
 }
+
+export default range;
